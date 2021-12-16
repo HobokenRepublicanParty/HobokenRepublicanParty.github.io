@@ -12,7 +12,7 @@ body {
 
   .jumbotron {
     min-height: 350px;
-    background-image: url("../images/GOTV.jpg");
+    background-image: url("/static/images/GOTV.jpg");
     background-size: 100% 100%;
     text-align: center;
   }
