@@ -1,8 +1,9 @@
 body {
-
     color: #a84040;
   }
-
+table, th, td {
+    color: #FFFFFF;
+}
 
   .tag {
     font-family: inherit; 
