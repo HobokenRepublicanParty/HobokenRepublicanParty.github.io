@@ -69,7 +69,7 @@ function filterTable(obj) {
     if(Object.entries(obj).length === 0)
       filteredData = null;
     Object.entries(obj).forEach(([fkey, fval]) =>{
-      filteredData = filteredData.filter((row) => row[fkey].toLowerCase().includes(fval.toLowerCase()));
+      filteredData = filteredData.filter((row) => row[fkey].toLowerCase() === fval.toLowerCase());
   });
   
     // 10. Finally, rebuild the table using the filtered data
